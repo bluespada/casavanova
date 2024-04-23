@@ -1,0 +1,21 @@
+{
+  "name": "casavanova",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "MODE=dev bun run index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/eden": "^1.0.11",
+    "@elysiajs/html": "^1.0.2",
+    "elysia": "^1.0.14",
+    "pino": "^8.20.0",
+    "pino-pretty": "^11.0.0"
+  }
+}
